@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js"></script>
+<script src="https://cdn.rawgit.com/calipho-sib/nextprot-js/v0.0.50/dist/nextprot.js"></script>
+<script src="bio-pv.js"></script>
+
+<link rel="stylesheet" type="text/css" href="3d.css">
+<link rel="stylesheet" href="dots.css" type="text/css">
+
+<div id=gl> </div>
+<div id=inspector>
+    <h1>Choose PDB Id:</h1>
+    <select id="pdbList" style="width:100px">
+    </select>
+    <h1>Choose Style</h1>
+    <ul>
+        <li id=cartoon>Cartoon</li>
+        <li id=preset>Preset</li>
+        <li id=tube>Tube</li>
+        <li id=lines>Lines</li>
+        <li id=line-trace>Line Trace</li>
+        <li id=sline>Smooth Line Trace</li>
+        <li id=trace>Trace</li>
+    </ul>
+    <span>Powered by <a target="_blank" href="http://biojs.io/d/bio-pv">BioJS PV WebGL library</a></span>
+</div>
+
+<script src='main.js'></script>
+
+<div class="dots-loader" style="margin-left: 50% ;margin-top: 10% ;">
+    Loading…
+</div>
