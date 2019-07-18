@@ -1,6 +1,6 @@
-# Protein-3D-structure
+# I-TASSER/COFACTOR modeling for human proteome
 
-A 3D viewer based on [bio-pv](https://github.com/biasmv/pv) library. This viewer can be seen here:
+Integration of I-TASSER/COFACTOR to neXtProt using ["Develop and contribute" API](https://www.nextprot.org/help/technical-corner). This viewer can be seen here:
 
-https://search.nextprot.org/entry/NX_P01308/gh/ddtxra/Protein-3D-structure
+https://search.nextprot.org/entry/NX_P01308/gh/zhanglabs/COFACTOR
 
