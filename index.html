@@ -9,6 +9,27 @@
 <link rel="stylesheet" type="text/css" href="css/3d.css">
 <link rel="stylesheet" href="css/dots.css" type="text/css">
 
+<div id="div1">Atempting to create dynamic text.</div>
+<script type="text/javascript">
+    var nx = new Nextprot.Client(applicationName, clientInfo);
+    document.write(nx.getEntryName());
+    
+    document.body.onload = addElement;
+    
+    function addElement () { 
+        // create a new div element 
+        var newDiv = document.createElement("div"); 
+        // and give it some content 
+        var newContent = document.createTextNode("jstext:"+nx.getEntryName()); 
+        // add the text node to the newly created div
+        newDiv.appendChild(newContent);  
+        
+        // add the newly created element and its content into the DOM 
+        var currentDiv = document.getElementById("div1"); 
+        document.body.insertBefore(newDiv, currentDiv); 
+}
+</script> 
+    
 <div id=gl> </div>
     
 <div id=inspector>
@@ -26,13 +47,6 @@
         <li id=trace>Trace</li>
     </ul>
     <span>Powered by <a target="_blank" href="http://biojs.io/d/bio-pv">BioJS PV WebGL library</a></span>
-</div>
-
-<div>
-<script type="text/javascript">
-var nx = new Nextprot.Client(applicationName, clientInfo);
-document.write(nx.getEntryName());
-</script>
 </div>
     
     
