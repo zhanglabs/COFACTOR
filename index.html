@@ -1,39 +1,14 @@
 <html>
 <meta charset="UTF-8">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js"></script>
 <script src="https://cdn.rawgit.com/calipho-sib/nextprot-js/v0.0.50/dist/nextprot.js"></script>
-<script src="js/bio-pv.js"></script>
 
-<link rel="stylesheet" type="text/css" href="css/3d.css">
-<link rel="stylesheet" href="css/dots.css" type="text/css">
-
-<div id="div1">Atempting to create dynamic text.</div>
+<div>
+neXtProt ID:
 <script type="text/javascript">
-    var nx = new Nextprot.Client(applicationName, clientInfo);
-    document.write(nx.getEntryName());
-    
-    document.body.onload = addElement;
-    
-    function addElement () { 
-        // create a new div element 
-        var newDiv = document.createElement("div"); 
-        // and give it some content 
-        var newContent = document.createTextNode("jstext:"+nx.getEntryName()); 
-        // add the text node to the newly created div
-        newDiv.appendChild(newContent);  
-        
-        // add the newly created element and its content into the DOM 
-        var currentDiv = document.getElementById("div1"); 
-        document.body.insertBefore(newDiv, currentDiv); 
-}
+var nx = new Nextprot.Client('I-TASSER COFACTOR viewer', 'Yang Zhang lab');
+document.write(nx.getEntryName());
 </script>
+</div> 
     
-    
-<!--<script src='js/main.js'></script>-->
-
-<div class="dots-loader" style="margin-left: 50% ;margin-top: 10% ;">
-    Loading…
-</div>
 </html>
