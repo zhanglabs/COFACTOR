@@ -1,6 +1,7 @@
 <script src="https://cdn.rawgit.com/calipho-sib/nextprot-js/v0.0.50/dist/nextprot.js"></script>
 <script type="text/javascript">
-var nx = new Nextprot.Client('I-TASSER/COFACTOR', 'Yang Zhang lab'); // create a neXtProt client instance
+/* create a neXtProt client instance. the two arguments are arbitrary */
+var nx = new Nextprot.Client('I-TASSER/COFACTOR', 'Yang Zhang lab');
 /* getEntryName() retrieves the neXtProt ID from url. for example, if the url is 
  * https://www.nextprot.org/entry/NX_O14894/gh/zhanglabs/COFACTOR
  * the neXtProt ID is NX_O14894. if the url does not follow such pattern,
@@ -9,6 +10,6 @@ var ID = nx.getEntryName();
 var href = 'https://zhanglab.ccmb.med.umich.edu/COFACTOR/lydie.lane.corrected/html/'+ID;
 document.write('Loading I-TASSER/COFACTOR data for neXtProt ID '
     +ID+'<br>If the data do not load automatically, click <br><a href='
-    +href+'>'+href+'</a>');
-window.location.href = href;
+    +href+'>'+href+'</a>'); // print short message before re-direction.
+window.location.href = href; // re-direct to href
 </script>
