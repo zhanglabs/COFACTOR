@@ -7,7 +7,7 @@ var nx = new Nextprot.Client('I-TASSER/COFACTOR', 'Yang Zhang lab');
  * the neXtProt ID is NX_O14894. if the url does not follow such pattern,
  * an abitrary neXtProt ID will be returned, such as NX_P01308 */
 var ID = nx.getEntryName();
-var href = 'https://zhanglab.ccmb.med.umich.edu/COFACTOR/lydie.lane.corrected/html/'+ID;
+var href = 'https://zhanglab.ccmb.med.umich.edu/COFACTOR/nx2019addition/html/'+ID;
 document.write('Loading I-TASSER/COFACTOR data for neXtProt ID '
     +ID+'<br>If the data do not load automatically, click <br><a href='
     +href+'>'+href+'</a>'); // print short message before re-direction.
