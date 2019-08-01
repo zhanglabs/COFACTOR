@@ -3,3 +3,6 @@
 
 # vim temporary backup
 .*.sw*
+
+# developer only note
+readme.zcx
