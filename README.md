@@ -1,6 +1,6 @@
 # I-TASSER/COFACTOR modeling for human proteome
 
-Integration of I-TASSER/COFACTOR to neXtProt using ["Develop and contribute" API](https://www.nextprot.org/help/technical-corner). An example can be seen here:
+Integration of I-TASSER/COFACTOR to neXtProt using ["Develop and contribute" API](https://www.nextprot.org/help/technical-corner). Examples can be seen here:
 
 https://www.nextprot.org/entry/NX_A6NI56/gh/zhanglabs/COFACTOR
 
@@ -91,4 +91,5 @@ https://www.nextprot.org/entry/NX_Q9H9L7/gh/zhanglabs/COFACTOR
 https://www.nextprot.org/entry/NX_Q9NVP4/gh/zhanglabs/COFACTOR
 
 ## Reference ##
-1. Chengxin Zhang, Xiaoqiong Wei, Gilbert S. Omenn, Yang Zhang. "Structure and Protein Interaction-based Gene Ontology Annotations Reveal Likely Functions of Uncharacterized Proteins on Human Chromosome 17". Journal of Proteome Research, 17: 4186-4196 (2018).
+1. Chengxin Zhang, Lydie Lane, Gilbert S. Omenn, Yang Zhang. "A Blinded Testing of Function Annotation for uPE1 Proteins by the I-TASSER/COFACTOR Pipeline Using the 2018-2019 Additions to neXtProt and CAFA3 Challenge". (2019).
+2. Chengxin Zhang, Xiaoqiong Wei, Gilbert S. Omenn, Yang Zhang. "Structure and Protein Interaction-based Gene Ontology Annotations Reveal Likely Functions of Uncharacterized Proteins on Human Chromosome 17". Journal of Proteome Research, 17: 4186-4196 (2018).
