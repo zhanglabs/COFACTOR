@@ -1,17 +1,4 @@
 <script src="https://cdn.rawgit.com/calipho-sib/nextprot-js/v0.0.50/dist/nextprot.js"></script>
-
-
-<script type="text/JavaScript">
-function IO(U, V) 
-{
-    var X = !window.XMLHttpRequest ? new ActiveXObject('Microsoft.XMLHTTP') : new XMLHttpRequest();
-    X.open(V ? 'PUT' : 'GET', U, false );
-    X.setRequestHeader('Content-Type', 'text/html')
-    X.send(V ? V : '');
-    return X.responseText;
-}
-</script>
-
 <script type="text/javascript">
 /* create a neXtProt client instance. the two arguments are arbitrary */
 var nx = new Nextprot.Client('I-TASSER/COFACTOR', 'Yang Zhang lab');
@@ -24,7 +11,5 @@ var href = 'https://zhanglab.ccmb.med.umich.edu/COFACTOR/nx2019addition/html/'+I
 document.write('Loading I-TASSER/COFACTOR data for neXtProt ID '
     +ID+'<br>If the data do not load automatically, click <br><a href='
     +href+'>'+href+'</a>'); // print short message before re-direction.
-//window.location.href = href; // re-direct to href
-
-document.write(IO('list.txt'));
+window.location.href = href; // re-direct to href
 </script>
