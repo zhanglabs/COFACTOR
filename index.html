@@ -60,7 +60,7 @@ else
 	    document.getElementById('email_form').style.display='none';
 	    return sequence;
 	}
-        var htmltxt='The analysis for '+ID+' is not computed yet.<br>We can model it for you.<br>The process requires a few days.<br>Enter your email here, and we will let you know when it is ready.<p></p>Submitting neXtProt sequence:<br>&gt;<a href="https://api.nextprot.org/entry/'+ID+'.fasta" target="_blank">'+ID+'</a><br>';
+        var htmltxt='The analysis for '+ID+' is not computed yet.<br>We can model it for you.<br>The process requires a few days.<br>Enter your email here, and we will let you know when it is ready.<p></p>Submitting neXtProt sequence:<br>&gt;'+ID+'<br>';
 	for (var j=0;j<sequence.length;j++)
 	{
 	    htmltxt+=sequence[j];
