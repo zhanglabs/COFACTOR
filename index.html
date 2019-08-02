@@ -7,8 +7,8 @@
 </div>
 <form id="email_form" name="email_form" method="post" action="">
 Email:
-<input type="text" name="REPLY-E-MAIL" size=30>
-<input type="submit" value="Submit">
+<input type="text" id="REPLY-E-MAIL" name="REPLY-E-MAIL" size=30>
+<input type="submit" id="submit" value="Submit">
 </form>
 </ul>
 
@@ -56,7 +56,8 @@ else
 	}
 	if (sequence.length>750 || sequence.length<10)
 	{
-    	    document.getElementById('txt').innerHTML="Sorry, due to technical difficulties, we only currently support sequences ranging from 10 to 750 residues";
+    	    document.getElementById('txt').innerHTML='Sorry, your sequence has '+sequence.length+' residues.<br>Due to technical difficulties, we only currently support sequences ranging from 10 to 750 residues<br>';
+	    document.getElementById('email_form').style.display='none';
 	    return sequence;
 	}
         var htmltxt='The analysis for '+ID+' is not computed yet.<br>We can model it for you.<br>The process requires a few days.<br>Enter your email here, and we will let you know when it is ready.<p></p>Submitting neXtProt sequence:<br>&gt;<a href="https://api.nextprot.org/entry/'+ID+'.fasta" target="_blank">'+ID+'</a><br>';
