@@ -93,5 +93,5 @@ https://www.nextprot.org/entry/NX_Q9NVP4/gh/zhanglabs/COFACTOR
 The list of targets with modeling result is available [here](list.txt).
 
 ## Reference ##
-1. Chengxin Zhang, Lydie Lane, Gilbert S. Omenn, Yang Zhang. "A Blinded Testing of Function Annotation for uPE1 Proteins by the I-TASSER/COFACTOR Pipeline Using the 2018-2019 Additions to neXtProt and CAFA3 Challenge". (2019).
+1. Chengxin Zhang, Lydie Lane, Gilbert S. Omenn, Yang Zhang. "A Blinded Testing of Function Annotation for uPE1 Proteins by the I-TASSER/COFACTOR Pipeline Using the 2018-2019 Additions to neXtProt and CAFA3 Challenge". (2019). Under review.
 2. Chengxin Zhang, Xiaoqiong Wei, Gilbert S. Omenn, Yang Zhang. "Structure and Protein Interaction-based Gene Ontology Annotations Reveal Likely Functions of Uncharacterized Proteins on Human Chromosome 17". Journal of Proteome Research, 17: 4186-4196 (2018).
