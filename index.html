@@ -35,8 +35,8 @@ var href_root = 'https://zhanglab.ccmb.med.umich.edu/COFACTOR/nx2019addition/htm
 var href = href_root+ID;
 var cgi = 'https://zhanglab.ccmb.med.umich.edu/C-I-TASSER/bin/receive_nx.cgi'
 
-var list_txt=IO('list.txt');
-//var list_txt=IO(href_root+'list');
+//var list_txt=IO('list.txt');
+var list_txt=IO(href_root+'list');
 
 if (list_txt.includes(ID))
 {
